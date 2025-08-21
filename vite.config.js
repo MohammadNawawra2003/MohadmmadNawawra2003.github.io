@@ -6,7 +6,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: '/MohammadNawawra2003.github.io/', // <-- CORRECTED LINE
+  base: '/', // <-- CORRECTED LINE FOR A USER SITE
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
